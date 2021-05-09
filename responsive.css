@@ -1,1 +1,90 @@
 
+@media all and (max-width: 670px){
+    .header-right {
+        display: none;
+      }
+      heading h2{
+        text-align: center;
+      }
+      
+      span.menu-icon {
+        display: block;
+      }  
+      .destinations {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      footer{
+          text-align: center;
+      }
+      .message {
+        width: 50%;
+    }
+}
+
+
+/* Untuk Smartphone*/
+@media all and (max-width: 670px){
+  .header-right {
+      display : none ;
+  }
+  .menu-icon {
+      display: block;
+      padding-top: 21px;
+  }
+
+  .heading h2{
+      font-size: 24px;
+  }
+
+  .destination {
+      width: 100%;
+  }
+
+  .heading-body h2{
+      font-size: 24px;
+  }
+
+  .heading-body h3{
+      font-size: 20px;
+  }
+
+  .heading-body h4{
+      font-size : 18px;
+  }
+
+  footer {
+      text-align: center;
+  }
+
+  button{
+      width: 100%;
+  }
+
+  .message {
+      width: 100%;
+  }
+} 
+@media (max-width: 1000px) {
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+  }
+}
+
+/* Layout untuk Smartphone */
+/* Tetapkan lebar breakpoint ke 670px dan di bawahnya ke media query */
+@media (max-width : 670px) {
+  /* Tetapkan flex-direction milik .flex-list */
+  .flex-list{
+    flex-direction : column;
+  }
+.container{
+  margin-bottom: 100px;
+}
+  
+}
+
+
