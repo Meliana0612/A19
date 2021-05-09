@@ -1,65 +1,71 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  .container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+} 
 
-  body {
-    font-family: "Lucida Grande";
-  }
-  .clear{
-    clear: left;
-  }
+body {
+  font-family: "Lucida Grande";
+}
 
-  header {
-    height: 60px;
-    width: 100%;
-    background-color: #518CFF;
-    position :fixed;
-    top: 0;left: 0;
-    z-index: 10;
-  }
+.clear{
+  clear: left;
+}
 
-  .logo {
-    width: 150px;
-    margin-top: 10px;
-  }
-  .header-left{
-      float: left;
-  }
-  .header-right a{
-      text-decoration: none;
-      color: white;
-      line-height: 60px;
-      padding: 0 25px;
-      display: block;
-      float: right;
-      transition: all 0.5s;
-  }
-  
-  .header-right a:hover {
-    background-color: white;
-    color: #518CFF;
-  }
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #518CFF;
+  position :fixed;
+  top: 0; left: 0;
+  z-index: 10;
+}
 
-  .fa {
-    margin-right: 5px;
-  }
-  .main{
-    height: 400px;
-    margin-top: 100px;
-    text-align: center;
-    font-size: large;
-  }
-  .packing{
-    width:400px;
-    height: 500px;
-    margin: 50px 40px;
+.logo {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.header-left{
     float: left;
+}
+
+.header-right a{
+  text-decoration: none;
+  font-weight : bold ;
+  color: white;
+  line-height: 60px;
+  padding: 0 25px;
+  display: block;
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: white;
+  color: #518CFF;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.main{
+  height: 400px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: large;
+}
+
+.packing{
+  width:400px;
+  height: 500px;
+  margin: 50px 40px;
+  float: left;
 }
 
 span.menu-icon {
@@ -69,17 +75,15 @@ span.menu-icon {
   padding: 21px 0;
   display: none;
 }
-
-.flex-list{
-  display : flex ;
-  justify-content: space-around;
+.header-right {
+  display: none;
 }
 
 .destinations{
   margin-top: 10px;
 }
+
 .destination {
-  float: left;
   width: 20%;
   height: 300px;
   text-align: center;
@@ -92,6 +96,7 @@ span.menu-icon {
 .destination-icon {
   position: relative;
 }
+
 .destination-icon img{
   width: 200px;
   height: 200px;
@@ -108,15 +113,16 @@ span.menu-icon {
   height: 30px;
   background-color: #8eb3ff;
   color: rgb(0, 0, 0);
-  padding: 10px;
   border-radius: 20px;
   cursor: pointer;
+  opacity : 0.8;
 }
+
 .destination-icon button:hover{
-  background-color: white;
-  color: lightskyblue;
-  border: 1px  solid black ;
-  transition: 1s ease-in-out;
+    background-color: white;
+    color: rgb(0, 118, 192);
+    border: 1px  solid rgb(0, 118, 192) ;
+    transition: 0.5s ease-in-out;
 }
 
 .body{
@@ -128,60 +134,63 @@ span.menu-icon {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
-  }
-  
-.heading-body{
-  float: none;
-  text-align: left;
-  padding: 100px;
-  font-size: large;
-  margin: 40px;
-  margin-right: 100px;
 }
 
-  .message {
+.destination-wrapper h3,h4 {
+  font-weight : normal;
+}
+
+.heading-body{
+    float: none;
+    text-align: left;
+    padding: 100px;
+    font-size: large;
+    margin: 40px;
+    margin-right: 100px;
+}
+
+.message {
   padding: 15px 40px;
   background-color: #518CFF;;
   cursor: pointer;
   box-shadow: 0 7px #5a6d92;
   color: white;
-  
-  }
-  
-  .message:active {
+}
+
+.message:active {
   position: relative;
   top: 7px;
   box-shadow: none;
-  }
+}
 
-  
+
 footer {
   background-color:  #518CFF;
+  background-size : cover ;
   height: 200px;
-  padding: 40px;
+  padding: 10px;
   color: white;
   width: 100%;
-  position: relative;
-  left: 0;
-  right: 0;
-  bottom: 0;
+
   padding-top: 30px;
   padding-bottom: 20px;
-  
-  }
-  .footer-logo {
-    width: 125px;
-    float: left;
-  }
-  
-  
-  .footer-list {
-    float: right;
-  }
-  
-  li{
-    list-style: none;
-  }
-  .footer-list li{
-    padding-bottom: 20px;
-  }
+}
+
+.footer-logo {
+  padding-top : 50px;
+  width: 125px;
+  float: left;
+}
+
+
+.footer-list {
+  float: right;
+}
+
+li{
+  list-style: none;
+}
+
+.footer-list li{
+  padding-bottom: 20px;
+}
