@@ -58,6 +58,10 @@
     margin-bottom: 50px;
   }
 
+  .main {
+    height : auto;
+    }  
+    
   .packing{
     width: 80%;
     height: 500px;
